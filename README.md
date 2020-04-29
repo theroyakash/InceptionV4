@@ -38,3 +38,11 @@ from keras import backend as K
 from keras.utils.layer_utils import convert_all_kernels_in_model
 from keras.utils.data_utils import get_file
 ```
+
+### Install like this:
+Open terminal then
+```bash
+$ pip3 install tensorflow
+$ pip3 install numpy
+$ pip3 install Theano  # If you don't wanna use tensorflow
+```
