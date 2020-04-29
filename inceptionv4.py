@@ -33,13 +33,10 @@ from keras.utils.layer_utils import convert_all_kernels_in_model
 from keras.utils.data_utils import get_file
 
 
-#########################################################################################
-# Implements the Inception Network v4 (http://arxiv.org/pdf/1602.07261v1.pdf) in Keras. #
-#########################################################################################
+# Implements the Inception Network v4 (http://arxiv.org/pdf/1602.07261v1.pdf) in Keras.
 
-WEIGHTS_PATH = 'https://github.com/kentsommer/keras-inceptionV4/releases/download/2.1/inception-v4_weights_tf_dim_ordering_tf_kernels.h5'
-WEIGHTS_PATH_NO_TOP = 'https://github.com/kentsommer/keras-inceptionV4/releases/download/2.1/inception-v4_weights_tf_dim_ordering_tf_kernels_notop.h5'
-
+WEIGHTS_PATH = 'data coming soon'
+WEIGHTS_PATH_NO_TOP = 'link coming soon'
 
 def preprocess_input(x):
     x = np.divide(x, 255.0)
